@@ -180,6 +180,20 @@
     <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.4.1.min.map" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SozlukBlog.Core\SozlukBlog.Core.csproj">
+      <Project>{0a5c816a-f044-425c-ba97-f201cc3cd3b1}</Project>
+      <Name>SozlukBlog.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SozlukBlog.Repository\SozlukBlog.Repository.csproj">
+      <Project>{2ca2517c-340b-4a5a-aa4c-b805931d5f41}</Project>
+      <Name>SozlukBlog.Repository</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SozlukBlog.Service\SozlukBlog.Service.csproj">
+      <Project>{2c1c8f52-3e55-46de-bd0b-30dcb45159f0}</Project>
+      <Name>SozlukBlog.Service</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
